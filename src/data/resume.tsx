@@ -12,7 +12,7 @@
     summary:
       "tldr; learnt by hacking around on the internet.\n\n curious about how code, systems, and ideas work under the hood.\n\n love building things that feel like magic. dive deep into tech. also: loves football and books that shift your perspective.",
     avatarUrl: "/me.jpg",
-    resumeUrl: "https://drive.google.com/file/d/1e52p6RvVtASj8YmsabRGokpvBR_05wci/view?usp=drive_link",
+    resumeUrl: "https://drive.google.com/file/d/1TRMEx2pl7WWGQJpNipSjhfIszbWBQM6N/view?usp=sharing",
     skills: [
       "Python",
       "TypeScript",
@@ -47,7 +47,7 @@
         },
         X: {
           name: "X",
-          url: "https://x.com/ManInTheHam_",
+          url: "https://x.com/ManInTheHam",
           icon: Icons.x,
 
           navbar: true,
@@ -73,7 +73,7 @@
         start: "July 2025",
         end: "September 2025",
         description:
-          "Worked on developing and maintaining end-to-end web applications by contributing to both frontend (React.js, HTML, CSS, JavaScript) and backend (Node.js/Express.js, Flask, PostgreSQL/MySQL) components. Gained hands-on experience in building REST APIs, integrating databases, debugging, and deploying applications while following agile practices and version control (Git/GitHub).",
+          "Worked on developing and maintaining end-to-end web applications by contributing to both frontend (React.js, HTML, CSS, JavaScript) and backend (Node.js/Express.js, PostgreSQL/MySQL) components. Gained hands-on experience in building REST APIs, integrating databases, debugging, and deploying applications while following agile practices and version control (Git/GitHub).",
       },
       {
         company: "Motion Cut",
@@ -91,7 +91,7 @@
     education: [
       {
         school: "Pune University",
-        href: "https://x.com/ManInTheHam_",
+        href: "https://x.com/ManInTheHam",
         degree: "Electronics & Telecommunications",
         logoUrl: "/sppu.jpeg",
         start: "2021",
@@ -101,7 +101,7 @@
     projects: [
       {
         title: "Prescription OCR",
-        href: "https://prescription-ocr.vercel.app/",
+        href: "https://prescriptionocr.sohxm.xyz/",
         dates: "Dec 2024 - April 2025",
         active: true,
         description:
@@ -117,7 +117,7 @@
         links: [
           {
             type: "Website",
-            href: "https://prescription-ocr.vercel.app/",
+            href: "https://prescriptionocr.sohxm.xyz/",
             icon: <Icons.globe className="size-3" />,
           },
           {
@@ -152,24 +152,22 @@
         image: "/geid.png",
       },
       {
-        title: "InterviewAI",
-        href: "https://interviewai.vercel.app/",
+        title: "TerminalTalk",
+        href: "https://TeminalTalk.sohxm.xyz",
         dates: "Still in development",
         active: true,
         description:
-          "Prepwise is an AI-powered mock interview platform that helps users practice interviews in a realistic, voice-based environment. It generates tailored questions, conducts interactive sessions, and provides instant feedback with real-time transcripts to enhance interview readiness.",
+          "A real-time chat application built with React, Node.js, and Socket.IO, featuring a terminal-inspired UI styled like Oh My Zsh themes. It supports instant messaging, user presence with a clean, minimal interface that blends WhatsApp-like usability with a developer terminal aesthetic.",
         technologies: [
-          "Next.js",
-          "Firebase",
+          "React.js",
           "TailwindCSS",
-          "Vapi AI",
-          "shadcn/ui",
-          "Google Gemini",
-          "Zod",
+          "MongoDB",
+          "Socket.io",
+          "Express.js",
         ],
         links: [
         ],
-        image: "/INTERAI.png",
+        image: "/TerminalTalk.png",
       },
       {
         title: "PaperLess",
@@ -218,7 +216,7 @@
         dates: "July 2025 - Oct 1, 2025",
         location: "Online",
         description:
-          "Hackathon is still on going ",
+          "Participated in exploring app monetization concepts using RevenueCat APIs and subscription tools. Gained insights into subscription management and developer ecosystem. ",
         image:
           "/cathack.png",
         links: [
