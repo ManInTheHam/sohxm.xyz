@@ -15,13 +15,14 @@
     resumeUrl: "https://drive.google.com/file/d/1TRMEx2pl7WWGQJpNipSjhfIszbWBQM6N/view?usp=sharing",
     skills: [
       "Python",
-      "TypeScript",
+      "JavaScript",
+      "Go",
       "Node.js",
       "React",
       "SQL",
       "NoSQL",
-      "Shell Scripting",
-      "C"
+      "Docker",
+      "AWS"
     ],
     navbar: [
       { href: "/", icon: HomeIcon, label: "Home" },

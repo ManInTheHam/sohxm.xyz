@@ -132,7 +132,7 @@ export default function Page() {
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 12}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
+              <div className="space-y-5">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                   My Projects
                 </div>
@@ -166,11 +166,47 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* 🔥 GitHub Contributions Section */}
+      <section id="github-contributions">
+        <div className="space-y-8 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 13}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-5">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  Contributions
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  My Daily Developer Log
+                </h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  A simple snapshot of what I’ve been exploring and creating over time.
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+
+          <div className="flex flex-col items-center gap-10 max-w-[1000px] mx-auto">
+            {/* GitHub Chart */}
+            <img
+              src="https://ghchart.rshah.org/ManInTheHam"
+              alt="GitHub contributions"
+              className="w-full rounded-lg border border-white/10 p-2"
+            />
+
+            {/* GitHub Activity Graph */}
+            <img
+              src="https://github-readme-activity-graph.vercel.app/graph?username=ManInTheHam&theme=react-dark"
+              alt="GitHub contribution graph"
+              className="w-full rounded-lg border border-white/10 p-2"
+            />
+          </div>
+        </div>
+      </section>
       <section id="hackathons">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
+              <div className="space-y-5">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                   Hackathons
                 </div>
@@ -208,7 +244,7 @@ export default function Page() {
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 17}>
-            <div className="space-y-3">
+            <div className="space-y-5">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                 Contact
               </div>
